@@ -42,7 +42,7 @@ RN13S           - плата Robin Nano-s 1.3
 #endif
 
 #if PRINTER_DRV_TYPE == RN11_ALL_2208
-  #define USR_E0_DIR true
+  #define USR_E0_DIR false
   #define USR_E0_TYPE TMC2208_STANDALONE
   
   #define USR_X_DIR false
@@ -51,7 +51,7 @@ RN13S           - плата Robin Nano-s 1.3
   #define USR_Y_DIR false
   #define USR_Y_TYPE TMC2208_STANDALONE
   
-  #define USR_Z_DIR true
+  #define USR_Z_DIR false
   #define USR_Z_TYPE TMC2208_STANDALONE
 #endif
 
@@ -182,7 +182,7 @@ RN13S           - плата Robin Nano-s 1.3
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Sergey, FlyingbearGhost4S/5)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Alex Begoon, FBG5)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -257,7 +257,7 @@ RN13S           - плата Robin Nano-s 1.3
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "FBGhost 4s/5"
+#define CUSTOM_MACHINE_NAME "FBG 5"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
